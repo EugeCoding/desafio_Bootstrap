@@ -197,26 +197,21 @@ header .header__menudespegable ul li:hover {
 
 /* BOTÓN CONTACTAR */
 
-.contactar_button {
-    background-color: rgb(35, 3, 107);
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    border-radius: 12px;
-    width: 180px;
-    transition: transform 0.5s;
-
+.button_contactar{
+     transition: transform 0.5s;
+    
 }
 
-.contactar_button:hover {
-    background-color: rgb(95, 52, 195);
+.button_contactar a{
+    text-align: center;
+}
+.button_contactar:hover {
+    background-color: rgb(66, 189, 247);
     transform: scale(105%);
+    color: white;
 }
 
-.contactar_button a {
-    text-transform: capitalize;
-    font-size: 1.5rem;
-    font-weight: 400;
+.button_contactar a:hover {
     text-decoration: none;
     color: white;
 }
