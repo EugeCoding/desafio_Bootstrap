@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../css/stylesheet.css">
     <!-- Font awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -41,7 +43,7 @@
     </header>
     <!-- MAIN  -->
     <main class="container">
-        <h1 class="text-center display-1 fw-bold text-primary p-4">SUMATE AL EQUIPO</h1>
+        <h1 class="text-center display-1 fw-bold text-primary p-4 animate__animated animate__fadeIn">SUMATE AL EQUIPO</h1>
         <h2 class="subtitulo_paginaRRHH">Trabajá con nosotros y potenciá tu carrera profesional</h2>
         <p>Nuestro equipo está creciendo y buscamos nuevos talentos que quieran ser parte de uno de los estudios más
             importantes en Derecho Comercial de la región. Si sos recién graduado o ya tenés experiencia en la
@@ -57,19 +59,21 @@
                     <textarea class="textarea__contacto" name="messege"
                         placeholder="Contanos por qué te gustaría trabajar con nosotros." cols="50" rows="20"></textarea required>
                 </div>
-                <div>
-                    <h4>Experiencia en la profesión</h4>
-                    <input type="radio" name="experiencia" id="estudiante" value="estudiante">
-                    <label for="estudiante">Soy abogad@ recién graduado sin experiencia ejerciendo la profesión</label>
-                    <input type="radio" name="experiencia" id="graduado" value="graduado">
-                    <label for="estudiante">Soy abogad@ con experiencia ejerciendo la profesión</label>
-                    <input type="radio" name="experiencia" id="conexperiencia" value="conexperiencia">
-                    <label for="estudiante">Soy estudiante de Abogacía</label>
+                <div class="container">
+                    <div class="row">
+                        <h4>Experiencia en la profesión</h4>
+                        <input type="radio" name="experiencia" id="estudiante" value="estudiante">
+                        <label for="estudiante">Soy abogad@ recién graduado sin experiencia ejerciendo la profesión</label>
+                        <input type="radio" name="experiencia" id="graduado" value="graduado">
+                        <label for="estudiante">Soy abogad@ con experiencia ejerciendo la profesión</label>
+                        <input type="radio" name="experiencia" id="conexperiencia" value="conexperiencia">
+                        <label for="estudiante">Soy estudiante de Abogacía</label>
 
-                    <p>Subi tu CV en PDF</p>
-                    <input type="file" name="cv" multiple accept=".pdf">
-                    <button type="reset">Limpiar</button>
-                    <button type="submit">Enviar</button>
+                        <p>Subi tu CV en PDF</p>
+                        <input type="file" name="cv" multiple accept=".pdf">
+                        <button type="reset">Limpiar</button>
+                        <button type="submit">Enviar</button>
+                    </div>
                 </div>
         </form>
 </div>        
